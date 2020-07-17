@@ -179,3 +179,69 @@
 //     document.write('Ohh Try Again');
 // }
 
+// Chapter 31  to 34
+// Task 1
+// var getDate = new Date();
+// document.write('Todays Date ', getDate);
+
+// Task 2
+// var getDate = new Date();
+// var getMonth = getDate.toLocaleString('default', { month: 'long' });
+// document.write('Current Month ', getMonth);
+
+// Task 3
+// var getDate = new Date();
+// var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
+//     "Friday", "Saturday")
+// document.write("Today is " + weekday[getDate.getDay()]);
+
+//Task 4
+// var getDate = new Date();
+// var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
+//     "Friday", "Saturday")
+// var today = weekday[getDate.getDay()];
+// if (today === 'Sunday' || 'Saturday') {
+//     document.write("IT's a Fun Day ");
+// } else {
+//     document.write("Working Day :( ");
+// }
+
+//Task 5 
+// today = new Date();
+// var dd = today.getDate();
+// if (dd <= 1 || dd <= 15) {
+//     document.write(" Fist Fifteen Days of month");
+// } else {
+//     document.write(" Last Fifteen Days of month");
+// }
+
+//Task 6
+// var minutes = 1000 * 60;
+// var milliseconds = minutes / 60000;
+// var today = new Date();
+// var assignDate = today.getTime();
+// var getminutes = (assignDate / minutes);
+// var getmiliSeconds = (assignDate / milliseconds);
+// document.write("Current Date ", today, '<br> Elapsed milliseconds since January: ', getmiliSeconds, ' <br> Elapsed minutes Since January: ', getminutes);
+
+// Task 7
+
+
+
+
+//Task 8
+
+// var Today = new Date();
+//    Today.
+// document.write('Last Date: ');
+
+
+//Task 13
+// var Today = new Date();
+// var getDate = prompt("Enter your age ");
+// var getUserAge =  getDate.getFullYear()
+
+// var getYear = Today.getUTCFullYear();
+// document.write('Last Date: ', getYear, '<br>');
+// document.write('Last age: ', getUserAge);
+
